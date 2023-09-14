@@ -1,7 +1,8 @@
+
 table{
 	width:100%;
-	border:1px solid black;
-	border-radius:10px;
+	/*border:1px solid black;*/
+	border-radius:20%;
 	border-collapse:collapse;	
 }
 th{
@@ -9,7 +10,7 @@ th{
 	color:#f6f9fb;	
 }
 th, td{
-	text-allign:left;
+	text-allign:right;
 	border-collapse:collapse;
 	padding:8px;	
 }
@@ -17,5 +18,7 @@ tr:nth-child(even){
     background-color: lightgray;
 }
 
-
+tr:hover{
+	background-color:seagreen;
+}
 
